@@ -1,0 +1,57 @@
+{
+  "name": "jet-test",
+  "version": "1.0.0",
+  "description": "基于React技术栈的自动化测试工具",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "bin": {
+    "jet-test": "./bin/jet-test.js"
+  },
+  "types": "./lib/react-app.d.ts",
+  "dependencies": {
+    "@babel/core": "^7.8.3",
+    "babel-jest": "^24.9.0",
+    "babel-preset-react-app": "9.1.0",
+    "camelcase": "^5.3.1",
+    "chalk": "^3.0.0",
+    "cross-spawn": "^7.0.1",
+    "fs-extra": "^8.1.0",
+    "globby": "^11.0.0",
+    "immer": "^5.3.2",
+    "jest": "24.9.0",
+    "jest-environment-jsdom-fourteen": "1.0.1",
+    "jest-resolve": "24.9.0",
+    "jest-watch-typeahead": "0.4.2",
+    "react-app-polyfill": "^1.0.5",
+    "semver": "6.3.0"
+  },
+  "devDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "2.1.2"
+  },
+  "peerDependencies": {
+    "typescript": "^3.2.1"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
